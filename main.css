@@ -1,0 +1,36 @@
+#no, #yes {
+    display: none;
+}
+
+#no.show, #yes.show {
+    display: flex;
+
+}
+
+body,html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.text-container {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    transition: background 2s linear
+}
+
+.text-container__no {
+    background: black;
+    color: white;
+}
+.text-container__yes {
+    background: white;
+}
+.text {
+    font-size: 3em;
+}
